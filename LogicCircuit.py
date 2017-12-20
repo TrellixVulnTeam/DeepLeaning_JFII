@@ -31,28 +31,28 @@ def XOR(x1, x2):
 
 
 print("AND")
-print(AND(0, 0))
-print(AND(1, 0))
-print(AND(0, 1))
-print(AND(1, 1))
+print('0 AND 0 => %d' % AND(0, 0))
+print('0 AND 1 => %d' % AND(0, 1))
+print('1 AND 0 => %d' % AND(1, 0))
+print('1 AND 1 => %d' % AND(1, 1))
 
 print("OR")
-print(OR(0, 0))
-print(OR(1, 0))
-print(OR(0, 1))
-print(OR(1, 1))
+print('0 OR 0 => %d' % OR(0, 0))
+print('0 OR 1 => %d' % OR(0, 1))
+print('1 OR 0 => %d' % OR(1, 0))
+print('1 OR 1 => %d' % OR(1, 1))
 
 # NAND
 print("NAND")
-print(NAND(0, 0))
-print(NAND(1, 0))
-print(NAND(0, 1))
-print(NAND(1, 1))
+print('0 NAND 0 => %d' % NAND(0, 0))
+print('0 NAND 1 => %d' % NAND(0, 1))
+print('1 NAND 0 => %d' % NAND(1, 0))
+print('1 NAND 1 => %d' % NAND(1, 1))
 
 # XORは非線形のためパーセプトロンでは表現できない
 # AND / OR / NAND の多層で表現
 print("XOR")
-print(XOR(0, 0))
-print(XOR(0, 1))
-print(XOR(1, 0))
-print(XOR(1, 1))
+print('0 XOR 0 => %d' % XOR(0, 0))
+print('0 XOR 1 => %d' % XOR(0, 1))
+print('1 XOR 0 => %d' % XOR(1, 0))
+print('1 XOR 1 => %d' % XOR(1, 1))
